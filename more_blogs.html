@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styles.css" rel="stylesheet" />
+    <title>blogs | Naman</title>
+</head>
+
+<body>
+    <nav class="navigation container">
+        <div class="nav-brand"><a href="/">Naman</a></div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link" href="/">home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/projects.html">projects</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link link-active" href="/blogs.html">blogs</a>
+            </li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <h1 class="hero-heading">
+            This is blog about <span class="heading-inverted">JavaScript</span>
+        </h1>
+    </header>
+
+    <article class="container-center showcase-blog">
+        <p>
+            "Javascript is the duct tape of the Internet." -Charlie Campbell. Have you ever thought about the
+            programming language which powers the web? The most commonly used programming language in the world? Yes, it
+            is Javascript but what is Javascript and where do we use it.
+
+            In a web page, HTML is used to structure the page, CSS is used to add styling like colors, fonts, etc but a
+            web page with only HTML and CSS is static, meaning a user cannot really interact with the page, here is
+            where Javascript comes in.
+
+            Now let's see what is Javascript exactly, Javascript is a cross-platform, interpreted, object-oriented,
+            just-in-time compiled scripting language. It is used to make web pages interactive(for example if the user
+            clicks a button then the theme of the website changes, or after scrolling the page a pop-up message may be
+            displayed).It is used to make dynamic web pages.JavaScript has a standard library of objects, such as Array,
+            Date, and Math, and a fundamental set of language elements such as operators, control structures, and
+            statements. Javascript can be used for both client and server side programming.
+        </p>
+
+        <h2>Features of JavaScript</h2>
+        <p>
+            Cross-platform: Javascript is supported by many OS such as Windows, macOS, Linux, etc.
+
+            Object Oriented: Javascript is an object oriented programming language, but it is not a class based OOP
+            language like Java, C++, etc. It is a prototype based OOP language.
+
+            You might be familiar with class based OOP in Java or C++ where we write a class, objects are instantiated
+            for it and when we want the inheritance to happen we create another class which inherits from the parent
+            class specified, where as in prototyped based OOP there is no such concept of classes objects directly
+            inherit from other objects this is possible because every object has another object called Prototype
+            attached to it by default which acts as a template object from which the object can inherit properties and
+            methods.
+
+            Scripting language: Javascript is a scripting language it depends on the browser for the execution of
+            scripts. It is mostly used as a client-side scripting language this means that it runs on the client's
+            system (browser) and handles the webpages displayed to the user and the processing related to it such as
+            cookies, sessions, local storage.
+
+            Dynamically typed: Javascript is dynamically typed, it means type checks happen at run-time. In JS we don't
+            have to explicitly declare what type of information will be stored in a variable in advance. For example
+            when we declare var a, now a can have a string stored in or a number as well.
+
+            Loosely/weakly typed: Loosely/weakly typed languages allows for implicit conversion of types. For example,
+            in Javscript we can declare a var a and give it some value and if we use + operator with a string variable a
+            will be treated as string and as a number if we do the operation with a number, var a is converted
+            implicitly here.
+
+            Case sensitive: Javascript is sensitive to the case of the letters.
+
+            Browser support: Javascript is supported by all major web browsers example Chrome, Firefox, Safari, etc.
+
+            JIT compiled is compiled by a JIT(Just in time) compiler which converts the JS code to byte code.
+
+            Interpreted: Javascript is using an interpreter to convert the byte to machine code hence is it an
+            interpreted language. light weight and interpreted language.
+
+            light-weight: Light weight refers to a language which has fewer language constructs(any syntactically
+            allowable part of a language such as if..else,functions etc), since JS fits this criteria it is a light
+            weight programming language. (Note: It should be noted that with each new version released new constructs
+            get added so JS is getting less light weight but it is still light weight compared to other programming
+            languages like C++, Java etc)
+        </p>
+
+        <h2>
+            Limitations of JavaScript
+        </h2>
+        <p>
+            Client-Side Security Javascript code is run on the client-side, there is a higher chance for bugs and other
+            lapses to be exploited by harmful entities. This makes some users disable Javascript entirely
+
+            Different browsers different results different browsers use different engines sometimes the result can be
+            different for the same code but nowadays such cases are minimal.
+
+            No Multithreading or Multiprocessing does not have multithreading or multiprocessing capabilities.
+
+            No reading/writing of files: Javascript does not allow direct reading/writing files due to security reasons.
+        </p>
+    </article>
+
+    <footer class="footer">
+        <div class="footer-header">social media presence</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link" href="https://github.com/NamanxJain"> github </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://twitter.com/naman_af?t=lRry0u9cK_ZwztAcUVfT2g&s=09"> twitter </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://www.linkedin.com/in/naman-jain-302150229">
+                    linkedin
+                </a>
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>
